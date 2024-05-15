@@ -9,7 +9,7 @@ export default function LaunchOverTime({ timeline }) {
     let year = {};
 
     // function to get no. of year
-    timeline.map((period) => {
+    timeline.forEach((period) => {
         const { launch_year } = period;
         if (!year[launch_year]) {
             year[launch_year] = 1;
