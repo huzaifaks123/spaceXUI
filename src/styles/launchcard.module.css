@@ -1,0 +1,19 @@
+.card{
+    border-bottom: 1px solid black;
+    margin: 0px 20px;
+    height: 90%;
+    text-overflow: ellipsis;
+}
+.card p{
+    margin: 0px;
+}
+.cardList{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.cardList::-webkit-scrollbar{
+    display: none;
+}
+.headbg{
+    background-color: #ffffff;
+}

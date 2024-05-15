@@ -1,0 +1,12 @@
+.cardList{
+    height: 20rem;
+    overflow: hidden;
+    margin: 5px;
+}
+.card{
+    line-height: 2px;
+    margin: 10px 20px;
+}
+.cardList::-webkit-scrollbar{
+    display: none;
+}

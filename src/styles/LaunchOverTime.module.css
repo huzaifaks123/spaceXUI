@@ -1,0 +1,27 @@
+
+.cardList{
+    height: 20rem;
+    overflow: hidden;
+    text-align: center
+    ;
+}
+.card{
+    line-height: 2px;
+    border-bottom: 1px solid black;
+    margin: 10px 20px;
+}
+.cardList::-webkit-scrollbar{
+    display: none;
+}
+.chartContainer{
+    margin-right: 10px;
+    margin-top: 50px;
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+    .cardList{
+        height: 100vw;
+    }
+    .card{
+        margin: 10px 0px;
+    }
+  }

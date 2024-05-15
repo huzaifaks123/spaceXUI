@@ -1,0 +1,19 @@
+.launchCardContainer{
+    height: 100%;
+    font-size: small;
+    height: 13rem;
+    box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.1),inset 1px 1px 4px rgba(0, 0, 0, 0.1)
+}
+.locationContainer,.launchOverTimeContainer,.TimelineContainer{
+    box-shadow: 6px 4px 8px rgba(0, 0, 0, 0.1),inset 1px 1px 4px rgba(0, 0, 0, 0.1)
+}
+.cardList{
+    display: flex;
+    justify-content: space-between;
+    height: 85%;
+}
+.TimelineContainer{
+    height: 70%;
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  }

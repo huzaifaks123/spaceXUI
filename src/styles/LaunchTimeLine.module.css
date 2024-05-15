@@ -1,0 +1,18 @@
+.cardList{
+    height: 20rem;
+    overflow-y: scroll;
+    font-size: small;
+}
+.card{
+    margin: 0px 20px;
+}
+.cardList::-webkit-scrollbar{
+    display: none;
+}
+.card:nth-child(2n){
+    background-color: #4a80aa;
+    color: white;
+}
+.para{
+    margin: 0px;
+}
